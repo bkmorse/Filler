@@ -3,3 +3,7 @@ Add the file: pi.filler.php into a new folder called: filler
 the folder needs to be placed within:
 
 system/expressionengine/third_party/
+
+so you'll have:
+
+system/expressionengine/third_party/filler/pi.filler.php
