@@ -7,3 +7,14 @@ system/expressionengine/third_party/
 so you'll have:
 
 system/expressionengine/third_party/filler/pi.filler.php
+
+Usage:
+
+{exp:filler channel="test_channel" status="open" total="10"}
+ text and/or html goes here
+{/exp:filler}
+
+channel, status (only one) and total are all required.
+
+If your channel only has 6 entries and you need 10 spots filled, you would set total to 10, and it would add the extra 4 entries
+  
